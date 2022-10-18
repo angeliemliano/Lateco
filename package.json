@@ -1,0 +1,20 @@
+{
+  "name": "lateco",
+  "version": "1.0.0",
+  "description": "project por Lateco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w scss/app.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeliemliano/Lateco.git"
+  },
+  "author": "Emis.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeliemliano/Lateco/issues"
+  },
+  "homepage": "https://github.com/angeliemliano/Lateco#readme"
+}
