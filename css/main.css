@@ -3,4 +3,74 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bebas Neue", cursive;
+}
+
+a, p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.cs-title {
+  color: #00600f;
+}
+
+nav {
+  margin: 0 auto;
+  background: white;
+  font-size: 1.7vh;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.8s;
+  position: relative;
+}
+nav ul li a:after {
+  transition: all 0.8s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: "";
+  color: transparent;
+  background: #6abf69;
+  height: 1px;
+}
+nav ul li a:before {
+  transition: all 0.8s;
+}
+nav ul li a:hover {
+  color: #6abf69;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+nav .custom-logo img {
+  height: 6vh;
+  padding: 4px;
+}
+
+#hero {
+  height: 99vh;
+  background: url("../img/hero-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=main.css.map */

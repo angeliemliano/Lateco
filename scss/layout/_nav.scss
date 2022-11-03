@@ -1,0 +1,55 @@
+nav {
+  margin: 0 auto;
+  background: white;
+  font-size: 1.7vh;
+
+  ul {
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+     
+      a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .8s;
+        position: relative;
+
+        &:after { 
+          transition: all .8s;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 0%;
+          content: '';
+          color: transparent;
+          background: $secondary;
+          height: 1px;
+        }
+
+        &:before {
+          transition: all .8s;
+        }
+
+        &:hover {
+          color: $secondary;
+        }
+
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+.custom-logo {
+  img {
+    height: 6vh;
+    padding: 4px;
+    }
+  }
+}
