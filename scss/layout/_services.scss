@@ -1,0 +1,22 @@
+.cs-icon-container {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: $secondary;
+
+	&:hover {
+		background: $primary-hover;
+		transition-duration: 1200ms;
+		.cs-service-icon {
+			transform: scale(1.2);
+			transition-duration: 1200ms;
+		}
+	}
+
+	.cs-service-icon {
+		color: white;
+		font-size: 5vh;
+	}
+
+}
+
