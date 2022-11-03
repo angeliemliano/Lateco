@@ -3,11 +3,23 @@
 	height: 120px;
 	border-radius: 50%;
 	background: $secondary;
+	position: relative;
+	left: 36%;
+	transition-duration: 1200ms;
 
 	&:hover {
 		background: $primary-hover;
-		transition-duration: 1200ms;
 		.cs-service-icon {
+			transform: scale(1.2);
+			transition-duration: 1200ms;
+		}
+
+		.cs-service-icon2 {
+			transform: scale(1.2);
+			transition-duration: 1200ms;
+		}
+
+		.cs-service-icon3 {
 			transform: scale(1.2);
 			transition-duration: 1200ms;
 		}
@@ -16,6 +28,28 @@
 	.cs-service-icon {
 		color: white;
 		font-size: 5vh;
+		position: relative;
+		top: 32%;
+		left: 25%;
+		transition-duration: 1200ms;
+	}
+
+	.cs-service-icon2 {
+		color: white;
+		font-size: 5vh;
+		position: relative;
+		top: 32%;
+		left: 30%;
+		transition-duration: 1200ms;
+	}
+
+	.cs-service-icon3 {
+		color: white;
+		font-size: 5vh;
+		position: relative;
+		top: 32%;
+		left: 36%;
+		transition-duration: 1200ms;
 	}
 
 }

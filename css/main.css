@@ -78,18 +78,48 @@ nav .custom-logo img {
   height: 120px;
   border-radius: 50%;
   background: #6abf69;
+  position: relative;
+  left: 36%;
+  transition-duration: 1200ms;
 }
 .cs-icon-container:hover {
   background: #388e3c;
-  transition-duration: 1200ms;
 }
 .cs-icon-container:hover .cs-service-icon {
+  transform: scale(1.2);
+  transition-duration: 1200ms;
+}
+.cs-icon-container:hover .cs-service-icon2 {
+  transform: scale(1.2);
+  transition-duration: 1200ms;
+}
+.cs-icon-container:hover .cs-service-icon3 {
   transform: scale(1.2);
   transition-duration: 1200ms;
 }
 .cs-icon-container .cs-service-icon {
   color: white;
   font-size: 5vh;
+  position: relative;
+  top: 32%;
+  left: 25%;
+  transition-duration: 1200ms;
+}
+.cs-icon-container .cs-service-icon2 {
+  color: white;
+  font-size: 5vh;
+  position: relative;
+  top: 32%;
+  left: 30%;
+  transition-duration: 1200ms;
+}
+.cs-icon-container .cs-service-icon3 {
+  color: white;
+  font-size: 5vh;
+  position: relative;
+  top: 32%;
+  left: 36%;
+  transition-duration: 1200ms;
 }
 
 /*# sourceMappingURL=main.css.map */
