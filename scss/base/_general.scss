@@ -14,6 +14,18 @@ a, p {
 section {
   padding: 80px 0 0;
   overflow: hidden;
+
+  a {
+    text-decoration: none;
+    font-family: $primary-font;
+    color: black;
+    transition-duration: 600ms;
+
+    &:hover {
+      color: $primary-hover;
+      transition-duration: 600ms;
+    }
+  }
 }
 
 .cs-title {
