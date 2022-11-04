@@ -15,6 +15,16 @@ section {
   padding: 80px 0 0;
   overflow: hidden;
 }
+section a {
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  transition-duration: 600ms;
+}
+section a:hover {
+  color: #388e3c;
+  transition-duration: 600ms;
+}
 
 .cs-title {
   color: #00600f;
