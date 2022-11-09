@@ -1,6 +1,7 @@
 .cs-icon-container {
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
+	margin: auto;
 	border-radius: 50%;
 	background: $secondary;
 	transition-duration: 1200ms;
@@ -11,35 +12,16 @@
 			transform: scale(1.2);
 			transition-duration: 1200ms;
 		}
-
-		.cs-service-icon2 {
-			transform: scale(1.2);
-			transition-duration: 1200ms;
-		}
-
-		.cs-service-icon3 {
-			transform: scale(1.2);
-			transition-duration: 1200ms;
-		}
 	}
 
 	.cs-service-icon {
 		color: white;
-		font-size: 5vh;
+		font-size: 3.5vh;
 		transition-duration: 1200ms;
-	}
-
-	.cs-service-icon2 {
-		color: white;
-		font-size: 5vh;
-		transition-duration: 1200ms;
-	}
-
-	.cs-service-icon3 {
-		color: white;
-		font-size: 5vh;
-		transition-duration: 1200ms;
+		position: relative;
+		top: 32%;
 	}
 
 }
+
 
