@@ -31,3 +31,13 @@ section {
 .cs-title {
   color: $primary;
 }
+
+.cs-section-border {
+  border-bottom: 1px solid #bce2bb;
+}
+
+@media (max-width: 992px) {
+  .cs-image {
+    display: none;
+  }
+}
