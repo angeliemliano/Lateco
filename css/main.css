@@ -12,7 +12,7 @@ a, p {
 }
 
 section {
-  padding: 80px 0 0;
+  padding: 40px 0 0 40px;
   overflow: hidden;
 }
 section a {
@@ -84,12 +84,11 @@ nav .custom-logo img {
 }
 
 .cs-icon-container {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
   border-radius: 50%;
   background: #6abf69;
-  position: relative;
-  left: 36%;
   transition-duration: 1200ms;
 }
 .cs-icon-container:hover {
@@ -99,37 +98,12 @@ nav .custom-logo img {
   transform: scale(1.2);
   transition-duration: 1200ms;
 }
-.cs-icon-container:hover .cs-service-icon2 {
-  transform: scale(1.2);
-  transition-duration: 1200ms;
-}
-.cs-icon-container:hover .cs-service-icon3 {
-  transform: scale(1.2);
-  transition-duration: 1200ms;
-}
 .cs-icon-container .cs-service-icon {
   color: white;
-  font-size: 5vh;
+  font-size: 3.5vh;
+  transition-duration: 1200ms;
   position: relative;
   top: 32%;
-  left: 25%;
-  transition-duration: 1200ms;
-}
-.cs-icon-container .cs-service-icon2 {
-  color: white;
-  font-size: 5vh;
-  position: relative;
-  top: 32%;
-  left: 30%;
-  transition-duration: 1200ms;
-}
-.cs-icon-container .cs-service-icon3 {
-  color: white;
-  font-size: 5vh;
-  position: relative;
-  top: 32%;
-  left: 36%;
-  transition-duration: 1200ms;
 }
 
 /*# sourceMappingURL=main.css.map */
