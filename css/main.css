@@ -30,6 +30,15 @@ section a:hover {
   color: #00600f;
 }
 
+.cs-section-border {
+  border-bottom: 1px solid #bce2bb;
+}
+
+@media (max-width: 992px) {
+  .cs-image {
+    display: none;
+  }
+}
 nav {
   margin: 0 auto;
   background: white;
@@ -104,6 +113,17 @@ nav .custom-logo img {
   transition-duration: 1200ms;
   position: relative;
   top: 32%;
+}
+
+.nav-pills {
+  background-color: #e5f4e5;
+}
+.nav-pills .nav-link {
+  color: #464646;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: #6abf69;
 }
 
 /*# sourceMappingURL=main.css.map */

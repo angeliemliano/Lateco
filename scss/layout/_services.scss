@@ -24,4 +24,16 @@
 
 }
 
+.nav-pills {
+	background-color: #e5f4e5;	
+
+	.nav-link {
+		color: $text-color;
+	}
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background: $secondary;
+}
+
 
