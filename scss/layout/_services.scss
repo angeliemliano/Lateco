@@ -36,6 +36,6 @@
 	background: $secondary;
 }
 
-
-
+.tab-pane.fade{transition:all .4s;transform:translateY(1rem)}
+.tab-pane.fade.show{transform:translateY(0rem)}
 
