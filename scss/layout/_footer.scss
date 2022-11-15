@@ -1,0 +1,23 @@
+footer {
+	background: $primary;
+	height: 30vh;
+	padding: 2% 10% 0 10%;
+	color: white;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+
+	a {
+		font: $secondary-font;
+		font-size: 2vh;
+		text-decoration: none;
+		color: white;
+
+		&:hover {
+			color: #f2f2f2;
+		}
+
+	}
+}
