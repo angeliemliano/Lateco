@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="https://kit.fontawesome.com/0c747d7a79.js" crossorigin="anonymous"></script>
-	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 <body>
@@ -175,8 +175,8 @@
 			            </div>
 
 			            <div class="col-12 mt-5">
-			            <div class="g-recaptcha" data-sitekey="6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef"></div>
-			             <button type="submit" id="demo-form" data-callback="onSubmit" data-sitekey="6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef" data-action='submit' class="btn btn-success cs-button g-recaptcha">Enviar</button>
+			            	<div class="g-recaptcha" data-sitekey="6LfKMA0jAAAAABKtsGPT4q0_FPbTU0uBbBLapAu8" data-callback="onReCaptcha"></div>			       
+			                <button type="submit" id="bt-submit" class="btn btn-success cs-button" disabled>Enviar</button>
 			            </div>
 			          </div>
 			        </form>
@@ -197,27 +197,14 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="script/script.js"></script>
-	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef"></script>
 	<script>
-	grecaptcha.enterprise.ready(function() {
-	    grecaptcha.enterprise.execute('6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef', {action: 'login'}).then(function(token) {
-	       ...
-	    });
-	});
-	</script>
-	<script>
-	   function onSubmit(token) {
-	     document.getElementById("demo-form").submit();
-	   }
-	</script>
-	<script type="text/javascript">
-		function onClick(e) {
-		  e.preventDefault();
-		  grecaptcha.enterprise.ready(async () => {
-		    const token = await grecaptcha.enterprise.execute('6LfaDAcjAAAAAG86uuxIiu6fndopTsU9jFhOUYef', {action: 'LOGIN'});
-  });
-}
-	</script>
-
+    var onReCaptcha = function () {
+      if (grecaptcha.getResponse().length !== 0) {
+        var btSubmit = document.getElementById("bt-submit");
+        btSubmit.disabled = false;
+      }
+    };
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
