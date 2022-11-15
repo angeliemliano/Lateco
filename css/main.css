@@ -34,11 +34,43 @@ section a:hover {
   border-bottom: 1px solid #bce2bb;
 }
 
+#back-to-top {
+  display: inline-block;
+  background-color: #00600f;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
+  position: fixed;
+  bottom: 2vh;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
 @media (max-width: 992px) {
   .cs-image {
     display: none;
   }
 }
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6abf69;
+}
+
 nav {
   margin: 0 auto;
   background: white;
@@ -91,6 +123,22 @@ nav .custom-logo img {
   background-attachment: fixed;
   background-size: cover;
 }
+#hero .hero-title {
+  height: 99vh;
+}
+#hero .hero-title .cs-hero-title {
+  font-size: 8vh;
+  color: #6abf69;
+}
+#hero .hero-title .cs-hero-subtitle {
+  color: #ebebeb;
+}
+
+.btn-success {
+  background: #00600f;
+  border: none;
+  color: white;
+}
 
 .cs-icon-container {
   width: 100px;
@@ -126,25 +174,13 @@ nav .custom-logo img {
   background: #6abf69;
 }
 
-#back-to-top {
-  display: inline-block;
-  background-color: #00600f;
-  width: 45px;
-  height: 45px;
-  border-radius: 100%;
-  border: none;
-  position: fixed;
-  bottom: 2vh;
-  right: 30px;
-  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
+.tab-pane.fade {
+  transition: all 0.4s;
+  transform: translateY(1rem);
 }
 
-#back-to-top.show {
-  opacity: 1;
-  visibility: visible;
+.tab-pane.fade.show {
+  transform: translateY(0rem);
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,4 +3,26 @@
   background: url("../img/hero-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
+    
+ .hero-title {
+  height: 99vh;
+
+   .cs-hero-title {
+    font-size: 8vh;
+    color: $secondary;
+   }
+
+   .cs-hero-subtitle {
+    color: #ebebeb;
+   }
+  }
 }
+
+.btn-success {
+  background: $primary;
+  border: none;
+  color: white;
+}
+
+
+
