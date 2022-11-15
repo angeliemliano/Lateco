@@ -36,26 +36,6 @@
 	background: $secondary;
 }
 
-#back-to-top {
-  display: inline-block;
-  background-color: $primary;
-  width: 45px;
-  height: 45px;
-  border-radius: 100%;
-  border: none;
-  position: fixed;
-  bottom: 2vh;
-  right: 30px;
-  transition: background-color .3s, 
-              opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
 
-#back-to-top.show {
-  opacity: 1;
-  visibility: visible;
-}
 
 

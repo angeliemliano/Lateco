@@ -36,6 +36,23 @@ section {
   border-bottom: 1px solid #bce2bb;
 }
 
+#back-to-top {
+  display: inline-block;
+  background-color: $primary;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
+  position: fixed;
+  bottom: 2vh;
+  right: 30px;
+  transition: background-color .3s, 
+              opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
 @media (max-width: 992px) {
   .cs-image {
     display: none;
