@@ -127,10 +127,12 @@ nav .custom-logo img {
   height: 99vh;
 }
 #hero .hero-title .cs-hero-title {
+  font-family: "Montserrat", sans-serif;
   font-size: 8vh;
   color: #6abf69;
 }
 #hero .hero-title .cs-hero-subtitle {
+  font-family: "Montserrat", sans-serif;
   color: #ebebeb;
 }
 
@@ -197,9 +199,71 @@ nav .custom-logo img {
   float: right;
 }
 
+.cs-mail {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  transition-duration: 600ms;
+}
+
 #clients {
   background: #6abf69;
-  height: 14vh;
+}
+#clients .dla-logo {
+  background: url("../img/clients/dla.png");
+  height: 8vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+#clients .dla-logo:hover {
+  background: url("../img/clients/dla-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#clients .farmacity-logo {
+  background: url("../img/clients/farmacity.png");
+  height: 8vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+#clients .farmacity-logo:hover {
+  background: url("../img/clients/farmacity-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#clients .frp-logo {
+  background: url("../img/clients/frp.png");
+  height: 8vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+#clients .frp-logo:hover {
+  background: url("../img/clients/frp-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#clients .pegasus-logo {
+  background: url("../img/clients/pegasus.png");
+  height: 8vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+#clients .pegasus-logo:hover {
+  background: url("../img/clients/pegasus-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 footer {

@@ -1,4 +1,44 @@
 #clients {
 	background: $secondary;
-	height: 14vh;
+
+	.dla-logo {
+		background: url("../img/clients/dla.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/dla-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
+	.farmacity-logo {
+		background: url("../img/clients/farmacity.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/farmacity-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
+	.frp-logo {
+		background: url("../img/clients/frp.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/frp-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
+	.pegasus-logo {
+		background: url("../img/clients/pegasus.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/pegasus-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
 }
