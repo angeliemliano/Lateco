@@ -1,5 +1,6 @@
 #clients {
 	background: $secondary;
+	padding: 4vh;
 
 	.dla-logo {
 		background: url("../img/clients/dla.png");
@@ -7,7 +8,7 @@
 
 		&:hover {
 		    background: url("../img/clients/dla-after.png");
-		    @include client-logo-hover;
+		    @include client-logo-hover;		    
 		  }
 	}
 
@@ -37,6 +38,16 @@
 
 		&:hover {
 		    background: url("../img/clients/pegasus-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
+	.patagonia-logo {
+		background: url("../img/clients/patagonia.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/patagonia-after.png");
 		    @include client-logo-hover;
 		  }
 	}
