@@ -52,4 +52,14 @@
 		  }
 	}
 
+	.deportes-logo {
+		background: url("../img/clients/deportes.png");
+		@include client-logo;
+
+		&:hover {
+		    background: url("../img/clients/deportes-after.png");
+		    @include client-logo-hover;
+		  }
+	}
+
 }

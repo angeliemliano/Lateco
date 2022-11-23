@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -185,13 +185,12 @@
 		<section class="container-fluid" id="clients">
 			<div class="container">
 		        <div class="row clients-wrapper">
-		        	<div class="col-lg-1"></div>
 			        <div class="col-lg-2 dla-logo"></div>
 			        <div class="col-lg-2 farmacity-logo"></div>
 			        <div class="col-lg-2 frp-logo"></div>
+			        <div class="col-lg-2 deportes-logo"></div>
+			        <div class="col-lg-2 patagonia-logo"></div>			        
 			        <div class="col-lg-2 pegasus-logo"></div>
-			        <div class="col-lg-2 patagonia-logo"></div>
-			        <div class="col-lg-1"></div>
 		        </div>
       </div>
 		</section>
@@ -205,6 +204,14 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="script/script.js"></script>
+	<script type="text/javascript">
+		var onReCaptcha = function () {
+	      if (grecaptcha.getResponse().length !== 0) {
+	        var btSubmit = document.getElementById("bt-submit");
+	        btSubmit.disabled = false;
+	      }
+	    };
+	</script>
   	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>

@@ -290,6 +290,21 @@ nav .custom-logo img {
   background-repeat: no-repeat;
   transform: scale(1.02);
 }
+#clients .deportes-logo {
+  background: url("../img/clients/deportes.png");
+  height: 8vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+#clients .deportes-logo:hover {
+  background: url("../img/clients/deportes-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(1.02);
+}
 
 footer {
   background: #00600f;

@@ -13,9 +13,3 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
-var onReCaptcha = function () {
-      if (grecaptcha.getResponse().length !== 0) {
-        var btSubmit = document.getElementById("bt-submit");
-        btSubmit.disabled = false;
-      }
-    };
